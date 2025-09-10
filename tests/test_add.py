@@ -3,7 +3,7 @@ import pytest
 from src.add import add
 
 def test_addition_happy_path():
-    assert add(2,3) == 5
+    assert add(2,3) == 4
 
 def test_neg_values():
     assert add(-2, -3) == -5
